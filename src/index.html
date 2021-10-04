@@ -6,9 +6,54 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
+    <header>ENIGMAIL</header>
+    
+    <section id="pantalla1">
+      <div id="contenido">
+        <h1>Enigmail.</h1>
+
+        <h3>Cifra la información confidencial de tu correo electrónico de forma eficaz y segura.</h3>
+
+        <p>Los correos electrónicos a menudo contienen información interna personal y de carcater sensible, 
+          la cual puede ser interceptada y accedida sin autorización si no está adecuadamente protegida.</p>
+
+        <p>Enigmail es una herramienta que cifra y descifra textos mediante el método de cifrado César
+          asegurandote una comunicación de correo electrónico fiable y segura.</p>
+      </div>
+      
+      
+      <div id="intrucciones">
+        <h1>Instrucciones</h1>
+
+        <ol>
+          <li>Escribe el mensaje que quieres cifrar o descifrar.</li>
+          <li>Ingrese el número de desplazamiento (es para indicar el nivel de seguridad).</li>
+          <li>Presiona el botón <span>CIFRAR</span> o <span>DESCIFRAR</span>.</li>
+          <li>Copia tu mensaje cifrado y envialo a quien desees.</li>
+          </ol>
+        
+        <p>NOTA: Si quieres descifrar tu mensaje, deberás seleccionar el mismo número 
+          de desplazamiento con el que cifraste.</p>
+        <input type="button" value="Empezar" id="botonEmpezar"/> 
+      </div>
+    </section>
+    
+
+
+    <section id="pantalla2" style="display: none">
+      <div>
+        <h3>Ingrese el mensaje:</h3>
+        <input type="text"/>
+        <h3>Ingrese el N° de desplazamiento:</h3>
+        <input type="button" value="CIFRAR"/>
+        <input type="button" value="DESCIFRAR"/>
+        <h3>Ingrese el mensaje:</h3>
+        <input type="text"/>
+        <input type="button" value="LIMPIAR"/>
+      </div>
+    </section>
+
+    <script src="index.js" type="module"></script>  
+    
   </body>
 </html>
