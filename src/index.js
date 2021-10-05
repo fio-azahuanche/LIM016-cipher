@@ -1,8 +1,8 @@
-//import cipher from './cipher.js';
+import cipher from './cipher.js';
 
-//console.log(cipher);
+console.log(cipher);
 
-botonEmpezar.addEventListener('click', ()=>{
+/*botonEmpezar.addEventListener('click', ()=>{
     document.getElementById("pantalla1").style.display='none';
     document.getElementById("pantalla2").style.display='block';
-  })
+})*/
