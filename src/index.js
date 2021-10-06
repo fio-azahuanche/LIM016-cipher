@@ -8,13 +8,18 @@ botonEmpezar.addEventListener('click', ()=>{
     document.getElementById("pantalla2").style.display='block';
 })
 
-let mensajeOriginal="ABCD";
 let mensajeCifrado="";
-for (let i=0; i<mensajeOriginal.length;i++){
-    let codeLetra=mensajeOriginal.charCodeAt(i);
-    mensajeCifrado += String.fromCharCode(codeLetra+1);
+function cifrar(){
+    const botonCifrar = document.getElementById('botonCifrar');
+    let mensajeOriginal = document.getElementById('mensajeOriginal').value;
+    let shift = parseInt(document.getElementById('shift').value);
+    for (let i=0; i<mensajeOriginal.length;i++){
+        mensajeCifrado += String.fromCharCode((mensajeOriginal.charCodeAt(i)-65+shift)%26 +65);
+    }
+    console.log(mensajeCifrado);
 }
-console.log(mensajeCifrado)
+//Evento: click en cifrar
+botonCifrar.addEventListener('click',cifrar,false)
 
 console.log(cipher);
 
