@@ -14,9 +14,21 @@ const botonCifrar = document.getElementById('botonCifrar');
 botonCifrar.addEventListener('click', ()=>{
     let mensajeOriginal=document.getElementById('mensajeOriginal').value;
     let shift = document.getElementById('shift').value;
-    document.getElementById("mensajeCifrado").innerHTML = cipher.encode(mensajeOriginal,shift);
+    document.getElementById("mensajeCifrado").innerHTML = cipher.encode(shift,mensajeOriginal);
 })
 
+/* Descifrando el mensaje 
+Evento: click en botón DESCIFRAR más método obj.decode*/
+const botonDescifrar = document.getElementById('botonDescifrar');
+botonDescifrar.addEventListener('click', ()=>{
+    let mensajeOriginal=document.getElementById('mensajeOriginal').value;
+    let shift = document.getElementById('shift').value;
+    document.getElementById("mensajeCifrado").innerHTML = cipher.decode(shift,mensajeOriginal);
+})
+
+
+
+//NO BORRAR ESTO
 console.log(cipher);
 
 
