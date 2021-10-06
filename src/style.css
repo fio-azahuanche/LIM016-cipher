@@ -1,0 +1,50 @@
+/*body{
+    background: black;
+}*/
+header{
+    font-size: large;
+    text-align: center;
+    font-family: "Russo One";
+    border: 2px solid;
+    border-radius: 5px;
+    letter-spacing: 5em;
+
+}
+
+#principal, #instrucciones, #cifraDescifra{
+    /*width: 547px;
+    height: 490px;
+    text-align: justify;
+    padding: 5px;
+    margin: 5px auto 5px auto;*/
+    font-family: "Russo One";
+}
+
+h1 , h3{
+    font-family: "Russo One";
+}
+p, ol , input{
+    font-family: 'Share Tech Mono', monospace;
+}
+/*#botonEmpezar {
+    width: 226px;
+    height: 52.1px;
+    border-radius: 8px;
+    background: #082032;
+    color: #f0a500;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: center;
+  }
+  #principal {
+    width: 605px;
+    height: 524px;
+    background: #082032;
+    color:white;
+    width: 547px;
+    height: 490px;
+    text-align: justify;
+    padding: 5px 15px;
+  }*/
+
