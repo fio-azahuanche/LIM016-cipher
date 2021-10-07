@@ -8,6 +8,12 @@ botonEmpezar.addEventListener('click', ()=>{
     document.getElementById("pantalla2").style.display='block';
 })
 
+/*Evento: click en boton Limpiar*/
+const limpiar = document.getElementById('limpiar');
+limpiar.addEventListener('click', ()=>{
+    document.getElementById("mensajeCifrado").innerHTML="";
+})
+
 /* Cifrando el mensaje 
 Evento: click en botón CIFRAR más método obj.encode*/
 const botonCifrar = document.getElementById('botonCifrar');
