@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -13,9 +14,9 @@
 
     </header>
     
-    <section id="pantalla1">
+    <section id="pantalla1" class="container flex">
       <div id="principal">
-        <h1>Enigmail.</h1>
+        <h2>Enigmail.</h2>
 
         <h3>Cifra la información confidencial de tu correo electrónico de forma eficaz y segura.</h3>
 
@@ -23,12 +24,14 @@
           la cual puede ser interceptada y accedida sin autorización si no está adecuadamente protegida.</p>
 
         <p>Enigmail es una herramienta que cifra y descifra textos mediante el método de cifrado César
-          asegurandote una comunicación de correo electrónico fiable y segura.</p>   
+          asegurandote una comunicación de correo electrónico fiable y segura.</p> 
+
+        <div id="gif"><img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Dino_non-birthday_version.gif"></div>  
       </div>
       
       
     <div id="instrucciones">
-        <h1>Instrucciones.</h1>
+        <h2><!--img src="/imagenes/clipboard-text.png" width="72" height="72"-->Instrucciones.</h2>
 
         <ol>
           <li>Escribe el mensaje que quieres cifrar o descifrar.</li>
@@ -39,13 +42,13 @@
         
         <p>NOTA: Si quieres descifrar tu mensaje, deberás seleccionar el mismo número 
           de desplazamiento con el que cifraste.</p>
-        <input type="button" value="Empezar" id="botonEmpezar"> 
+        <div id="botonCentrar"><input type="button" value="Empezar" id="botonEmpezar" class="botonColor"></div> 
         
     </div>
     </section>
 
-    <section id="pantalla2" style="display: none">
-      <form>
+    <section id="pantalla2" class="container2" style="display: none">
+      <form id="formulario">
         <p>Ingrese el mensaje:</p>
         <input type="text" id="mensajeOriginal">
         <p>Ingrese el N° de desplazamiento:<input type="number" id="shift"></p>
@@ -53,7 +56,6 @@
         <input type="button" id="botonDescifrar" value="DESCIFRAR">
         <p>El nuevo mensaje es:</p>
         <p id="mensajeCifrado"></p>
-        <br><br>
         <input type="reset" id="limpiar" value="LIMPIAR" />
       </form>
     </section>
