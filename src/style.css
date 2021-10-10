@@ -1,6 +1,19 @@
-/*body{
-    background: black;
-}*/
+body{
+    background-image: linear-gradient(135deg, #00E7D4,#505488,#2f3f80,#161569,#5a4894,#a950a1,#ff7cae);
+    background-size: 500%;
+    animation: fanimado 10s infinite;
+}
+@keyframes fanimado{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
 header{
     font-size:large;
     text-align: center;
@@ -19,7 +32,7 @@ header{
     border-radius: 5px;
 }
 
-h1 , h2, h3{
+h2, h3{
     font-family: 'Inter', sans-serif;
     /*font-family: "Russo One";*/
 }
@@ -65,7 +78,8 @@ p, ol , input{
     height: 52.1px;
     border-radius: 8px;
     background: #082032;
-    color: #f0a500;
+    color: white;
+    /*color: #f0a500;*/
     font-size: 40px;
     font-weight: 400;
     line-height: 48px;
@@ -74,7 +88,7 @@ p, ol , input{
 }
 
 #botonEmpezar:hover{
-    background:darkblue;
+    background:#2f3f80;
 }
 #formulario{
     width: 570px;
@@ -152,3 +166,4 @@ img{
 #gif{
     text-align: center;
 }
+

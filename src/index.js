@@ -22,7 +22,6 @@ botonCifrar.addEventListener('click', ()=>{
             document.getElementById("mensajeCifrado").innerHTML = cipher.decode(-shift,mensajeOriginal);            
         }
     }
-    //document.getElementById("mensajeCifrado").innerHTML = cipher.encode(shift,mensajeOriginal);
 })
 
 /* Descifrando el mensaje 
@@ -39,7 +38,6 @@ botonDescifrar.addEventListener('click', ()=>{
             document.getElementById("mensajeCifrado").innerHTML = cipher.encode(-shift,mensajeOriginal);            
         }
     } 
-    //document.getElementById("mensajeCifrado").innerHTML = cipher.decode(shift,mensajeOriginal);
 })
 
 /*Evento: click en boton Limpiar*/
