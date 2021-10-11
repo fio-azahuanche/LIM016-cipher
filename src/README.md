@@ -31,6 +31,7 @@ La interfaz permite al usuario:
 
 ### Prototipo
 El prototipo se realizó en Lunacy y constaba de dos pantallas.
+
 **Primera Pantalla**
 ![imagen1](page1.png)
 
