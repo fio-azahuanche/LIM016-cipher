@@ -37,7 +37,7 @@ botonDescifrar.addEventListener('click', ()=>{
         if(shift<0){
             document.getElementById("mensajeCifrado").innerHTML = cipher.encode(-shift,mensajeOriginal);            
         }
-    } 
+    }
 })
 
 /*Evento: click en boton Limpiar*/
