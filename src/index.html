@@ -33,7 +33,7 @@
         <h2>Instrucciones.</h2>
 
         <ol>
-          <li>Escriba el mensaje que quieres cifrar o descifrar.</li>
+          <li>Escriba el mensaje que quiera cifrar o descifrar.</li>
           <li>Ingrese el número de desplazamiento (es para indicar el nivel de seguridad).</li>
           <li>Presione el botón <strong>CIFRAR</strong> o <strong>DESCIFRAR</strong>.</li>
           <li>Copie su mensaje cifrado y listo para ser enviado.</li>
@@ -46,15 +46,16 @@
     </div>
     </section>
 
-    <section id="pantalla2" class="container2" style="display: none">
+    <section id="pantalla2" style="display: none">
       <form id="formulario">
         <p>Ingrese el mensaje:</p>
-        <input type="text" id="mensajeOriginal">
+        <textarea id="mensajeOriginal" rows="3" placeholder="Escribir aquí..." spellcheck="false"></textarea>
         <p>Ingrese el N° de desplazamiento:<input type="number" id="shift"></p>
         <input type="button" id="botonCifrar" value="CIFRAR">
         <input type="button" id="botonDescifrar" value="DESCIFRAR">
         <p>El nuevo mensaje es:</p>
-        <p id="mensajeCifrado"></p>
+        <textarea rows="3" id="mensajeCifrado" spellcheck="false"></textarea>
+        <br>
         <input type="reset" id="limpiar" value="LIMPIAR" />
       </form>
     </section>

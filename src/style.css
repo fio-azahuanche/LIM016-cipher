@@ -87,7 +87,7 @@ p, ol , input{
 }
 #formulario{
     width: 570px;
-    height: 430px;
+    height: 450px;
     background: #334756;
     padding: 25px;
     margin: 10px;
@@ -106,6 +106,14 @@ p, ol , input{
     height: 70px;
     border-radius: 8px;
     background: #d3d3d3;
+}
+
+#mensajeCifrado{
+    width: 520px;
+    height: 50px;
+    border-radius: 8px;
+    background: #363232;
+    color: white;
 }
 
 #botonCifrar{
