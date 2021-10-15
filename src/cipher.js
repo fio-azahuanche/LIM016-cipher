@@ -1,6 +1,6 @@
 const cipher = {
   encode: (offset, string) =>{
-    if (isNaN(offset) || offset ===null || offset === 0) {
+    if (offset === null || offset === 0) {
       throw new TypeError(); /* TypeError se usa cuando un parametro no es valido*/
     }
 

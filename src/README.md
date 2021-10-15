@@ -30,13 +30,23 @@ La interfaz permite al usuario:
 * Ver el resultado del mensaje descifrado.
 
 ### Prototipo
-El prototipo se realizó en Lunacy y constaba de dos pantallas.
+El prototipo se realizó inicialmente en Lunacy y constaba de dos pantallas.
 
 **Primera Pantalla**
 ![imagen1](page1.png)
 
 **Segunda Pantalla**
 ![imagen2](page2.png)
+
+### Hallazgos del prototipo
+Después del primer sprint, gracias al feedback recibido por mis compañeras se identificó que se debía establecer algunas mejoras en los siguientes aspectos:
+- Facilitar el manejo de la interfaz para el usuario, es decir reducir cantidad de texto y dirigir la atención a la zona de cifrado o descifrado.
+- Establecer una sola fuente de letra pero darle estilos para diferenciar títulos de textos regulares.
+- Mejorar imágenes y fondo para que sea más amigable a la vista con el usuario objetivo.
+
+Con los hallazgos anteriores, se realizó un nuevo prototipo esta vez realizado en [Figma](https://www.figma.com/). Los prototipos fueron para dos dispositivos diferentes pues se queria que la interfaz presentara el efecto smooth scroll y sea con diseño adaptable.
+
+![prototipo](prototipoFigma.png)
 
 
 ## 4. Objetivos de aprendizaje

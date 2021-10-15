@@ -2,35 +2,28 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <title>Enigmail: Cifrado Cesar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1>ENIGMAIL</h1>
-
+    <header class="container ancho">
+      ENIGMAIL
     </header>
     
-    <section id="pantalla1" class="container flex">
-      <div id="principal">
-        <h2>Enigmail.</h2>
-        <h3>Cifra la información confidencial de tu correo electrónico de forma eficaz y segura.</h3>
+    <section id="principal" class="container flex">
+        <div id="slogan">
+          <h2>Cifra y descifra tus mensajes de correo electrónico de manera segura y eficaz</h2>
+          <a href="#instrucciones">Ver Instrucciones</a>
+          <a href="#cifraDescifra">Empezar</a>
+        </div>
+        <img src="imagen1.svg" id="imagenPrincipal">
+    </section>
 
-        <p>Los correos electrónicos a menudo contienen información interna, personal y de carácter sensible, 
-          la cual puede ser enviada de manera errónea y accedida si no está adecuadamente protegida.</p>
-
-        <p>Enigmail es una herramienta que cifra y descifra textos y números mediante el método de cifrado César
-          asegurandote una comunicación de correo electrónico fiable y segura.</p> 
-
-        <div id="gif"><img src="imagegif.gif"></div>  
-      </div>
-      
-      
-    <div id="instrucciones">
-        <h2>Instrucciones.</h2>
+    <section id="instrucciones" class="container flex">
+      <img src="imagen2.svg" id="imagenInstrucciones">
+      <div id="containerInstrucciones">
+        <h3>Instrucciones.</h3>
 
         <ol>
           <li>Escriba el mensaje que quiera cifrar o descifrar.</li>
@@ -41,12 +34,13 @@
         
         <p>NOTA: Si quiere descifrar su mensaje, deberá seleccionar el mismo número 
           de desplazamiento con el que cifraste.</p>
-        <div id="botonCentrar"><input type="button" value="Empezar" id="botonEmpezar"></div> 
+          <br>
+        <a href="#cifraDescifra" id="botonEmpezar">Empezar</a>
         
     </div>
     </section>
 
-    <section id="pantalla2" style="display: none">
+    <section id="cifraDescifra" class="container flex">
       <form id="formulario">
         <p>Ingrese el mensaje:</p>
         <textarea id="mensajeOriginal" rows="3" placeholder="Escribir aquí..." spellcheck="false"></textarea>
@@ -54,11 +48,13 @@
         <input type="button" id="botonCifrar" value="CIFRAR">
         <input type="button" id="botonDescifrar" value="DESCIFRAR">
         <p>El nuevo mensaje es:</p>
-        <textarea rows="3" id="mensajeCifrado" spellcheck="false"></textarea>
+        <textarea rows="4" id="mensajeCifrado" spellcheck="false"></textarea>
         <br>
         <input type="reset" id="limpiar" value="LIMPIAR" />
       </form>
+      <img src="imagen3.svg" id="imgCifraDescifra">
     </section>
+    
 
     <script src="index.js" type="module"></script>  
     

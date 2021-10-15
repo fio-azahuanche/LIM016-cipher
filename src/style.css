@@ -1,65 +1,91 @@
 body{
-    background-image: linear-gradient(135deg, #00E7D4,#505488,#2f3f80,#161569,#5a4894,#a950a1,#ff7cae);
-    background-size: 500%;
-    animation: fanimado 10s infinite;
+    font-family: 'Spartan', sans-serif;
 }
-@keyframes fanimado{
-    0%{
-        background-position: 0% 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0% 50%;
-    }
+
+html{
+    scroll-behavior: smooth;
 }
+
 header{
-    font-size:large;
-    text-align: center;
-    font-family: "Russo One";
-    border: 5px solid #334756;
-    border-radius: 5px;
+    font-weight: 800;
+    font-size: 18px;
     letter-spacing: 5em;
-    background: white;
-
+    text-align: center;
+    color: #000000;
+    background: #E5E5E5;
+    border-radius: 20px;
+    padding: 4px 0 0 2px;
+    align-items: center;
+    justify-content: center;
 }
-
-#principal, #instrucciones, #cifraDescifra{
-    font-family: 'Inter', sans-serif;
-    color: whitesmoke;
-    border-radius: 5px;
-}
-
-h2, h3{
-    font-family: 'Inter', sans-serif;
-}
-h2{
-    font-size: 50px;
-}
-p, ol , input{
-    font-family: 'Share Tech Mono', monospace;
-}
-
 
 #principal{
-    width: 605px;
-    height: 430px;
+    width: 1320px;
+    height: 640px;
     background: #082032;
-    padding: 25px;
-    margin: 10px;
-    font-size: 1em;
-    text-align: justify;
+    color: white; 
 }
+
+#slogan{
+    width: 490px;
+    height: 390px;
+    text-align: center;
+    margin-right: 10px;
+    padding: 65px;
+    font-weight: bold;
+    font-size: 30px;
+    box-sizing: content-box;
+}
+#imagenPrincipal{
+    width: 580px;
+    height: 450px;
+    margin: 5px;
+    padding: 80px;
+}
+
+a{
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    background: #E5E5E5;
+    border-radius: 50px;
+    padding: 12px;
+    margin: 15px;
+}
+
+a:hover{
+    background:#89C7E2;
+}
+
 #instrucciones{
-    width: 566px;
-    height: 430px;
+    width: 1320px;
+    height: 640px;
     background: #334756;
-    padding: 25px;
-    margin: 10px;
+    color: white;
 }
+
+#containerInstrucciones{
+    width: 580px;
+    height: 394px;
+    font-size: 22px;
+    text-align: justify;
+    font-weight: normal;
+    margin-right: 10px;
+    padding: 80px;
+    line-height: 28px;
+}
+
+#imagenInstrucciones{
+    width: 353px;
+    height: 480px;
+    margin: 5px;
+    padding: 80px;
+}
+
 .container{
-    margin: 0 auto;
+    margin: 5px auto;
     width: 90%;
 }
 
@@ -67,106 +93,219 @@ p, ol , input{
     display: flex;
 }
 
-#botonCentrar{
-    margin: 40px;
+.ancho{
+    width: 1320px;
+}
+
+h3{
+    font-weight: bold;
+}
+
+#botonEmpezar {
+    width: 276px;
+    height: 52px;
+    margin: 220px;
+    padding: 20px;
     text-align: center;
 }
-#botonEmpezar {
-    width: 226px;
-    height: 52.1px;
-    border-radius: 8px;
-    background: #082032;
-    color: white;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 48px;
+
+#cifraDescifra{
+    width: 1320px;
+    height: 640px;
+    background: #4B708C;
+    color:white;
 }
 
-#botonEmpezar:hover{
-    background:#2f3f80;
-}
 #formulario{
     width: 570px;
-    height: 450px;
-    background: #334756;
-    padding: 25px;
-    margin: 10px;
-    color: white;
-    border-radius: 5px;
+    height: 500px;
+    margin-right: 10px;
+    padding: 80px;
+    font-weight: bold;
+    font-size: 22px;
 }
 
-#pantalla2{
-    margin: 0 auto;
+#imgCifraDescifra{
     width: 500px;
-    font-size: 1.5em;
+    height: 460px;
+    margin: 5px;
+    padding: 80px;
 }
 
 #mensajeOriginal{
-    width: 520px;
-    height: 70px;
-    border-radius: 8px;
+    width: 460px;
+    height: 90px;
+    border-radius: 5px;
     background: #d3d3d3;
 }
 
 #mensajeCifrado{
-    width: 520px;
-    height: 50px;
-    border-radius: 8px;
+    width: 460px;
+    height: 80px;
+    border-radius: 5px;
     background: #363232;
     color: white;
 }
 
+input{
+    font-weight: bold;
+    font-family: Spartan;
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 50px;
+}
+
 #botonCifrar{
-    width: 137px;
+    width: 142px;
     height: 34px;
     color: black;
-    border-radius: 8px;
-    background: #d3d3d3;
-    padding: 2px;
-    font-weight: bold;
-    font-size: 20px;
+    background: #E5E5E5;
 }
+
 #botonCifrar:hover{
-    color: #cc0e0e;
+    color: #D72C2C;
+    background:#89C7E2;
 }
 
 #botonDescifrar{
-    width: 137px;
+    width: 142px;
     height: 34px;
     color: black;
-    border-radius: 8px;
-    background: #d3d3d3;
-    padding: 2px;
-    font-weight: bold;
-    font-size: 20px;
+    background: #E5E5E5;
 }
 
 #botonDescifrar:hover{
     color: #44cc0e;
+    background:#89C7E2;
 }
+
 #shift{
     width: 42px;
     height: 35px;
     border-radius: 8px;
     background: #d3d3d3;
-    padding: 1px;
 }
-
 
 #limpiar{
     width: 137px;
     height: 34px;
-    border-radius: 8px;
     background: #d3d3d3;
-    padding: 2px;
     font-weight: bold;
-    font-size: 20px;
-}
-img{
-    width: 250px;
-    height: 90px;
-}
-#gif{
-    text-align: center;
 }
 
+#limpiar:hover{
+    background:#89C7E2;
+}
+
+
+
+
+/* D I S E Ñ O  A D A P T A B L E */
+@media screen and (max-width: 800px){
+    header{
+        font-weight: 800;
+        font-size: 18px;
+        letter-spacing: 2em;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container{
+        width: 750px;
+    }
+
+
+    #principal{
+        width: 750px;
+        height: 450px;
+    }
+    
+    #slogan{
+        width: 270px;
+        height: 270px;
+        text-align: center;
+        margin-right: 8px;
+        margin-left: 9px;
+        padding: 20px;
+        font-weight: bold;
+        font-size: 19px;
+    }
+    #imagenPrincipal{
+        width: 306px;
+        height: 270px;
+        margin: 5px;
+        padding: 80px;
+        align-items: center;
+    }
+    
+    a{
+        font-weight: 600;
+        font-size: 12px;
+        padding: 3px;
+        margin: 50px;
+    }
+
+    #instrucciones{
+        width: 750px;
+        height: 450px;
+    }
+    
+    #containerInstrucciones{
+        width: 270px;
+        height: 270px;
+        font-size: 14px;
+        margin: 20px 30px 20px 30px;
+        padding: 50px;
+        line-height: normal;
+    }
+    #imagenInstrucciones{
+        width: 215px;
+        height: 312px;
+        margin: 20px 20px 20px 40px;
+        padding: 30px;
+    }
+    
+    #botonEmpezar {
+        width: 276px;
+        height: 52px;
+        margin: 100px;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    #cifraDescifra{
+        width: 750px;
+        height: 450px;
+    }
+    
+    #formulario{
+        width: 500px;
+        height: 400px;
+        margin: 5px 10px 5px 130px;
+        padding: 10px;
+        font-size: 18px;
+    }
+    
+    #imgCifraDescifra{
+        display: none;
+    }
+    #mensajeOriginal{
+        width: 400px;
+        height: 65px;
+    }
+    
+    #mensajeCifrado{
+        width: 400px;
+        height: 65px;
+    }
+    
+    input{
+        font-size: 16px;
+        padding: 6px;
+    }
+    
+    #shift{
+        width: 40px;
+        height: 30px;
+    }
+}
