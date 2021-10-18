@@ -16,13 +16,15 @@ Cifrando o descifrando la información confidencial del correo electrónico, as�
 ## 3. Consideraciones generales
 ### Características del proyecto
 
-El proyecto esta basado en el cifrado césar, en el cual se sustituye una letra por otra que se encuentre cierto número de posiciones adelante o atrás, dentro del abecedario español sin considerar la ñ.
+El proyecto esta basado en el cifrado César, en el cual se sustituye una letra por otra que se encuentre cierto número de posiciones adelante o atrás, dentro del abecedario español sin considerar la ñ.
 
 Acepta letras en mayúsculas o minúsculas, así como números pero con caracteres especiales y espacios retorna el mismo valor. 
 
 El número de desplazamiento representa un número específico que indicará el número de saltos que dará cada letra para ser cifrada.
 ### ¿Cómo funciona Enigmail?
-La interfaz permite al usuario:
+Al inicio de la página se muestra una sección de Bienvenida y verá dos botones: Ver Instrucciones y Empezar. Ver Instrucciones te permite acceder a las instrucciones si es la primera vez que el usuario ingresa a la página. Por otro lado, Empezar te lleva directamente a la zona de encriptación si ya ingresó antes y desea cifrar o descifrar su mensaje.
+
+La sección de Cifrado/Descifrado permite al usuario:
 * Insertar un mensaje (texto o número) que queremos cifrar.
 * Elegir un desplazamiento indicando cuántas posiciones queremos que el cifrado desplace cada caracter.
 * Ver el resultado del mensaje cifrado.
@@ -39,7 +41,7 @@ El prototipo se realizó inicialmente en Lunacy y constaba de dos pantallas.
 ![imagen2](page2.png)
 
 ### Hallazgos del prototipo
-Después del primer sprint, gracias al feedback recibido por mis compañeras se identificó que se debía establecer algunas mejoras en los siguientes aspectos:
+Después del primer sprint, gracias al feedback recibido por mis compañeras, se identificó que se debía establecer algunas mejoras en los siguientes aspectos:
 - Facilitar el manejo de la interfaz para el usuario, es decir reducir cantidad de texto y dirigir la atención a la zona de cifrado o descifrado.
 - Establecer una sola fuente de letra pero darle estilos para diferenciar títulos de textos regulares.
 - Mejorar imágenes y fondo para que sea más amigable a la vista con el usuario objetivo.
@@ -47,44 +49,3 @@ Después del primer sprint, gracias al feedback recibido por mis compañeras se 
 Con los hallazgos anteriores, se realizó un nuevo prototipo esta vez realizado en [Figma](https://www.figma.com/). Los prototipos fueron para dos dispositivos diferentes pues se queria que la interfaz presentara el efecto smooth scroll y sea con diseño adaptable.
 
 ![prototipo](prototipoFigma.png)
-
-
-## 4. Objetivos de aprendizaje
-
-### HTML
-
-- [x] Entender uso de HTML semántico
-
-### CSS
-
-- [x] Entender los tipos de selectores de CSS
-- [x] Identificar y entender modelo de caja
-
-### Web APIs
-
-- [ ] Uso de selectores del DOM
-- [x] Manejo de eventos del DOM
-- [ ] Manipulación dinámica del DOM
-
-### JavaScript
-
-- [x] Manipulación de Strings
-- [x] Variables (declaración, asignación, ámbito)
-- [x] Uso de condicionales (if-else)
-- [x] Uso de bucles/ciclos (for)
-- [x] Funciones (params, args, return)
-- [ ] Pruebas unitarias (unit tests)
-- [x] Módulos de ECMAScript (import & export)
-
-### Control de Versiones (Git y GitHub)
-
-- [x] Git: Instalación y configuración
-- [x] Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote)
-- [ ] GitHub: Creación de cuenta y repos, configuración de llaves SSH
-- [ ] GitHub: Despliegue con GitHub Pages
-
-### UX (User eXperience)
-
-- [x] Diseñar la aplicación pensando en y entendiendo al usuario
-- [ ] Crear prototipos para obtener feedback e iterar
-- [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
