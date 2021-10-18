@@ -22,7 +22,7 @@ Acepta letras en mayúsculas o minúsculas, así como números pero con caracter
 
 El número de desplazamiento representa un número específico que indicará el número de saltos que dará cada letra para ser cifrada.
 ### ¿Cómo funciona Enigmail?
-Al inicio de la página se muestra una sección de Bienvenida y verá dos botones: Ver Instrucciones y Empezar. Ver Instrucciones te permite acceder a las instrucciones si es la primera vez que el usuario ingresa a la página. Por otro lado, Empezar te lleva directamente a la zona de encriptación si ya ingresó antes y desea cifrar o descifrar su mensaje.
+Al inicio de la página se muestra una sección de Bienvenida y verá dos botones: Ver Instrucciones y Empezar. Ver Instrucciones permite acceder a las instrucciones si es la primera vez que el usuario ingresa a la página. Por otro lado, Empezar lleva directamente a la zona de encriptación si ya ingresó antes y desea cifrar o descifrar su mensaje.
 
 La sección de Cifrado/Descifrado permite al usuario:
 * Insertar un mensaje (texto o número) que queremos cifrar.
