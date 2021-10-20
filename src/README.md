@@ -18,7 +18,7 @@ Cifrando o descifrando la información confidencial del correo electrónico, as�
 
 El proyecto esta basado en el cifrado César, en el cual se sustituye una letra por otra que se encuentre cierto número de posiciones adelante o atrás, dentro del abecedario español sin considerar la ñ.
 
-Acepta letras en mayúsculas o minúsculas, así como números pero con caracteres especiales y espacios retorna el mismo valor. 
+Acepta letras en mayúsculas o minúsculas, así como números pero con caracteres especiales y espacios retorna el mismo valor.
 
 El número de desplazamiento representa un número específico que indicará el número de saltos que dará cada letra para ser cifrada.
 ### ¿Cómo funciona Enigmail?
@@ -49,3 +49,43 @@ Después del primer sprint, gracias al feedback recibido por mis compañeras, se
 Con los hallazgos anteriores, se realizó un nuevo prototipo esta vez realizado en [Figma](https://www.figma.com/). Los prototipos fueron para dos dispositivos diferentes pues se queria que la interfaz presentara el efecto smooth scroll y sea con diseño adaptable.
 
 ![prototipo](prototipoFigma.png)
+
+## 4. Objetivos de aprendizaje
+
+### HTML
+
+- [x] Entender uso de HTML semántico
+
+### CSS
+
+- [x] Entender los tipos de selectores de CSS
+- [x] Identificar y entender modelo de caja
+
+### Web APIs
+
+- [ ] Uso de selectores del DOM
+- [x] Manejo de eventos del DOM
+- [ ] Manipulación dinámica del DOM
+
+### JavaScript
+
+- [x] Manipulación de Strings
+- [x] Variables (declaración, asignación, ámbito)
+- [x] Uso de condicionales (if-else)
+- [x] Uso de bucles/ciclos (for)
+- [x] Funciones (params, args, return)
+- [ ] Pruebas unitarias (unit tests)
+- [x] Módulos de ECMAScript (import & export)
+
+### Control de Versiones (Git y GitHub)
+
+- [x] Git: Instalación y configuración
+- [x] Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote)
+- [ ] GitHub: Creación de cuenta y repos, configuración de llaves SSH
+- [ ] GitHub: Despliegue con GitHub Pages
+
+### UX (User eXperience)
+
+- [x] Diseñar la aplicación pensando en y entendiendo al usuario
+- [ ] Crear prototipos para obtener feedback e iterar
+- [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
