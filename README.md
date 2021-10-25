@@ -63,14 +63,14 @@ Con los hallazgos anteriores, se realizó un nuevo prototipo esta vez realizado 
 
 ### Web APIs
 
-- [ ] Uso de selectores del DOM
+- [x] Uso de selectores del DOM
 - [x] Manejo de eventos del DOM
-- [ ] Manipulación dinámica del DOM
+- [x] Manipulación dinámica del DOM
 
 ### JavaScript
 
 - [x] Manipulación de Strings
-- [x] Variables (declaración, asignación, ámbito)
+- [ ] Variables (declaración, asignación, ámbito)
 - [x] Uso de condicionales (if-else)
 - [x] Uso de bucles/ciclos (for)
 - [x] Funciones (params, args, return)
@@ -82,10 +82,10 @@ Con los hallazgos anteriores, se realizó un nuevo prototipo esta vez realizado 
 - [x] Git: Instalación y configuración
 - [x] Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote)
 - [ ] GitHub: Creación de cuenta y repos, configuración de llaves SSH
-- [ ] GitHub: Despliegue con GitHub Pages
+- [x] GitHub: Despliegue con GitHub Pages
 
 ### UX (User eXperience)
 
 - [x] Diseñar la aplicación pensando en y entendiendo al usuario
 - [ ] Crear prototipos para obtener feedback e iterar
-- [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
+- [x] Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
